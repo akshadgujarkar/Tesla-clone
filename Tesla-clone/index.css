@@ -1,0 +1,265 @@
+*{
+ margin: 0;
+ font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+ 
+}
+#logo img {
+    
+    width: 7rem;
+    margin: 0px 40px 0px 0px;
+    
+    
+
+}
+
+.model3{
+   
+    height: 100vh;
+    width:auto;
+    background-image: url(assets/Homepage-Model-3-Desktop-LHD-v2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.icons{
+    display: flex;
+    justify-content:flex-end;
+    width: 20%;
+}
+.icons p{
+    margin: 0px 10px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(45, 42, 42);
+    font-size: large;
+    font-weight: 500;
+}
+
+.navbar{
+    /* background-color: aqua; */
+    width: 40%;
+    height: 10%;
+    padding: 0px 0px 0px 135px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.info1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.modelname h1{
+    font-size: 40px
+}
+.price h2{
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+.price h2 sup{
+  font-size: 10px;
+
+}
+.des h3{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(68, 69, 70);
+    word-spacing: 3px;
+
+}
+.buttons{
+    display: flex;
+   position: absolute;
+   top: 82%;
+   left: 30%;
+}
+.buttons button{
+    width: 20vw;
+    height: 7vh;
+    margin: 0px 20px 0px 0px;
+    border-radius: 6px;
+    border: 0;
+    letter-spacing: 1px;
+    font-size: medium;
+    font-weight: 500;
+   
+}
+button{
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function:ease-in;
+    transition-delay: 0ms;
+}
+#b1{
+    background-color: white;
+    color: rgb(58, 54, 54);
+}
+#b2{
+    background-color: black;
+    color: white;
+}
+ button , #b2:hover{
+    background-color: rgb(52, 52, 49);
+ 
+}
+.modelY{
+    background-image: url(assets/Homepage-Model-Y-Desktop-Global.avif);
+    height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+.model{
+    margin-top: 90px;
+    font-size: 20px;
+}
+.p h2 sup{
+    font-size: 10px;
+  
+}
+.p h2{
+    font-size: 18px;
+    margin: 10px 0px;
+  
+}
+.d h3{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(68, 69, 70);
+    word-spacing: 3px;
+
+}
+.but{
+    display: flex;
+    position: relative;
+    top: 55%;
+    left: 30%;
+
+}
+#b{
+    background-color: white;
+    color: rgb(58, 54, 54);
+}
+#bb{
+    background-color: black;
+    color: white;
+}
+.but button{
+    width: 20vw;
+    height: 7vh;
+    margin: 0px 20px 0px 0px;
+    border-radius: 6px;
+    border: 0;
+    letter-spacing: 1px;
+    font-size: medium;
+    font-weight: 500;
+   
+}
+button , #bb:hover{
+    background-color: rgb(52, 52, 49);
+ 
+}
+.modelX{
+    background-image: url(assets/Homepage-Model-X-Desktop-v2.avif);
+    height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+.modelS{
+    background-image: url(assets/Homepage-Model-S-Desktop-v2.avif);
+    height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+.Solar{
+    background-image: url(assets/Homepage-SolarPanels-01-Desktop.avif);
+    height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+
+}
+.SolarRoof{
+    background-image: url(assets/Homepage-SolarRoof-Desktop-Global.avif);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+
+}
+.Powerwall{
+    background-image: url(assets/Homepage-Powerwall-01-Desktop.avif);
+    height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+.Accessories{
+    background-image: url(assets/Homepage-Accessories-Desktop-NA-APAC.avif);
+    height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+.div1 div{
+    color: rgb(255, 255, 255);
+    font-size:small;
+    margin-bottom: 5px;
+    word-spacing: 2px;
+    
+}
+.div1{
+
+    width: 45%;
+    position: relative;
+    top: 10%;
+    left: 29%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.last a{
+    text-decoration: none;
+    color: rgb(234, 228, 228);
+    font-size: smaller;
+    margin: 0px 10px;
+    font-weight: 400;
+   
+}
+.last{
+    width: 50%;
+    position: relative;
+    top: 10%;
+    left: 26%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+   
